@@ -10,6 +10,7 @@ namespace ConsoleApp1
             Console.WriteLine("А как зовут тебя?");
             string name = Console.ReadLine();
             Console.WriteLine($"Приятно познакомиться {name}");
+            Console.ReadKey();
         }
     }
 }
